@@ -1,0 +1,73 @@
+
+# Operating system files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OneDrive/temp
+~$*
+~*.tmp
+
+# Visual Studio / .NET
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+*.pdb
+*.cache
+*.ilk
+*.log
+*.vs/
+*.ncrunch*
+*.userprefs
+
+# Rider / IntelliJ
+.idea/
+*.iml
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+venv*/
+pip-log.txt
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Secrets and env files
+.env
+.env.*
+secrets.yml
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Misc
+.DS_Store
+.Trash-
+desktop.ini
+
+# Allowlist common project files (if present) - remove if you want them ignored
+!README.md
+!LICENSE
